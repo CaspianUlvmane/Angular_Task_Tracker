@@ -1,4 +1,7 @@
 <div class="container">
-    <h1>Task Tracker</h1>
-    <app-button color="teal" text="add"></app-button>
+    <header>
+        <h1>Task Tracker</h1>
+        <app-button color="teal" text="Add" (btnClick)="toggleAddTask()" ></app-button>
+    </header>
+    <app-tasks />
 </div>
