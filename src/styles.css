@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    background: teal;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    transition: all 200ms;
+}
+
+.btn:hover{
+    background: rgb(0, 87, 87);
+    cursor: pointer;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn:active{
+}
